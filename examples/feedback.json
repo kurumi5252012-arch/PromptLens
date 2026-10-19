@@ -1,0 +1,12 @@
+{
+  "name": "Feedback format regression",
+  "mode": "demo",
+  "prompts": [
+    "Analyze the feedback: {{input}}",
+    "Return only JSON with sentiment, summary and action. Feedback: {{input}}"
+  ],
+  "cases": [
+    { "input": "新版本加载很快，界面也好看，太喜欢了！", "keyword": "", "json": true },
+    { "input": "更新后一直闪退。", "keyword": "", "json": true }
+  ]
+}
