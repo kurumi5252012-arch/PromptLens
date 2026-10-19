@@ -33,6 +33,10 @@ Open **http://127.0.0.1:3001**. The production server serves both the UI and API
 
 ## What it does
 
+### Companion learning skill
+
+The repository also includes [Kaoyan English Coach](skills/README.md), a standalone Chinese-language skill for cloze tests, reading comprehension, essay feedback, and evidence-based review. It includes reusable instructions, research references, and nine behavioral acceptance scenarios. It is a separate instructional resource; the web workbench does not execute it automatically.
+
 - **Side-by-side prompts:** `{{input}}` substitution, with input appended when no placeholder exists.
 - **Shared test set:** 1–12 editable inputs; optional case-insensitive keyword and strict JSON checks.
 - **Evidence, not a magic score:** original responses, individual check results, measured latency and provider-reported total tokens.

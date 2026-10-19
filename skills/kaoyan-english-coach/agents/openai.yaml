@@ -1,0 +1,4 @@
+interface:
+  display_name: "考研英语精析教练"
+  short_description: "针对完形、阅读与作文，从原文证据定位错误并训练迁移与复习能力"
+  default_prompt: "使用 $kaoyan-english-coach 分析我的考研英语练习，说明原文证据、选项差异和需要改进的判断步骤。"
